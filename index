@@ -1,0 +1,67 @@
+<html>
+    <head> 
+        <title> ESERCIZIO 2 </title>
+        <body>
+            <h1 style="color: rgb(162, 7, 162);"> EPIFY </h1>
+            <h3> La prima piattaforma music streaming progettata da sviluppatori Front-end</h3>
+            <div>
+                <h1 style="color: rgb(165, 7, 165);"> REGISTRAZIONE UTENTE</h1>
+            </div>
+            <form onsubmit="alert('Registrazione inviata')">
+        <div>
+            <h4> Nome <h4>
+            <input type="text" placeholder="IL TUO NOME" />
+        </div>
+        <div> 
+            <h4> Cognome </h4>
+            <input type="text" placeholder="IL TUO COGNOME" />
+        </div>
+        <div>
+            <h4> Email </h4>
+            <input type="email" placeholder="LA TUA EMAIL" />
+        </div>
+        <div>
+            <h4> Password </h4>
+            <input type="password" placeholder="LA TUA PASSWORD" />
+        </div>
+        <div>
+            <h4> Conferma Password </h4>
+            <input type="password" placeholder="CONFERMA LA TUA PASSWORD" />
+        </div>
+        <div>
+            <h4> Data di nascita </h4>
+            <input type="date" />
+        </div>
+        <div>
+            <h4> Numero di telefono </h4>
+            <input type="number" />
+        </div>
+        <div> 
+            <h4> Gusti musicali </h4>
+            <ul>
+                <li> CLASSICA </li>
+                <input type="checkbox" />
+                <li> ROCK </li>
+                <input type="checkbox" />
+                <li> POP </li>
+                <input type="checkbox" />
+                <li> LATINA </li>
+                <input type="checkbox" />
+                <li> TRAP </li>
+                <input type="checkbox" />
+            </ul>
+        </div>
+        <div>
+            <h5> Accetti i termini e le condizioni che il servizio Epify ti indica</h5>
+            <input type="radio" />
+        </div>
+        <div> 
+            <button type="submit" > Invia registrazione </button>
+        </div>
+    </form>
+
+
+
+        </body>
+    </head>
+</html>
